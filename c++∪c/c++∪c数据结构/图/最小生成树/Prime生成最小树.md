@@ -95,4 +95,3 @@ void Prim(Graph *graph, int startVertex) {
 
 ---
 
-### 📝 今日份练习（手算 Prim）
