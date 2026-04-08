@@ -93,5 +93,94 @@ void Prim(Graph *graph, int startVertex) {
 }
 ```
 
----
 
+## 完整代码
+```
+#include<iostream>
+#include <locale>
+#include<queue>
+#include<vector>
+using namespace std;
+const int INF=1e9;
+typedef struct Node{
+    int vertex,weight;
+    Node* next;
+}Node;
+typedef struct Graph{
+    int numvertexNum;
+    Node** adjlist;
+}Graph;
+Graph *creatgraph(int numvertexNum){
+    Graph *graph = new Graph();
+    graph->numvertexNum = numvertexNum;
+    graph->adjlist = new Node*[numvertexNum];
+    for(int i = 0;i<numvertexNum;i++){
+        graph->adjlist[i] = NULL;
+    }
+    return graph;
+}
+void addEdge(Graph* graph, int i, int j, int weight) {
+    // i -> j
+    Node* node1 = new Node();
+    node1->vertex = j;
+    node1->weight = weight;
+    node1->next = graph->adjlist[i];
+    graph->adjlist[i] = node1;
+
+    // j -> i (最小生成树通常是无向图)
+    Node* node2 = new Node();
+    node2->vertex = i;
+    node2->weight = weight;
+    node2->next = graph->adjlist[j];
+    graph->adjlist[j] = node2;
+}
+void prim(Graph *graph,int startvertex)
+{
+    int n=graph->numvertexNum;
+    vector<int>minWeight(n,INF);
+    minWeight[startvertex] = 0;
+    vector<bool>inMin(n,false);
+    
+    priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
+    pq.push({0,startvertex});
+    int totalWeight=0;
+    while(!pq.empty())
+    {
+        int u=pq.top().second;
+        int w=pq.top().first;
+        pq.pop();
+        if(inMin[u]){
+            continue;
+        }
+        inMin[u] = true;
+        totalWeight+=w;
+        cout << "并入顶点 " << u << "，花费: " << w << endl;
+        Node *temp=graph->adjlist[u];
+        while(temp){
+            int v=temp->vertex;
+            int weight=temp->weight;
+            if(!inMin[v] && weight<minWeight[v]){
+                minWeight[v]=weight;
+                pq.push({weight,v});
+            }
+            temp=temp->next;
+        }
+    }
+    cout << "------------------------" << endl;
+    cout << "最小生成树总造价: " << totalWeight << endl;
+   }
+int main()
+{
+    int numvertexNum=5;
+    Graph *graph = creatgraph(numvertexNum);
+    addEdge(graph,0,1,1);
+    addEdge(graph,0,2,2);
+    addEdge(graph,1,2,3);
+    addEdge(graph,1,3,4);
+    addEdge(graph,2,3,5);
+    addEdge(graph,2,4,6);
+    addEdge(graph,3,4,7);
+    prim(graph,0);
+    return 0;
+}
+```
