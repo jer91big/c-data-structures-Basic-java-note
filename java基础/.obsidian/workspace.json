@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java核心/泛型/泛型（Generics - 贴在魔法箱上的防伪标签）.md",
+                "file": "java核心/Maven基础（项目的后勤物资部）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "泛型（Generics - 贴在魔法箱上的防伪标签）"
+              "title": "Maven基础（项目的后勤物资部）"
             }
           }
         ]
@@ -191,8 +191,9 @@
   },
   "active": "195087fbecfbb4f3",
   "lastOpenFiles": [
-    "java核心/泛型/Java 泛型常见用法.md",
     "java核心/泛型/泛型（Generics - 贴在魔法箱上的防伪标签）.md",
+    "java核心/Maven基础（项目的后勤物资部）.md",
+    "java核心/泛型/Java 泛型常见用法.md",
     "java基础及其oop/枚举enum的练习.md",
     "java基础及其oop/多态.md",
     "java基础及其oop/接口.md",
@@ -225,7 +226,6 @@
     "java核心/字符串/字符串的高频用法.md",
     "java核心/ArrayList",
     "java核心/字符串",
-    "java基础及其oop/内部类/匿名内部类.md",
-    "java基础及其oop/内部类/内部类.md"
+    "java基础及其oop/内部类/匿名内部类.md"
   ]
 }
