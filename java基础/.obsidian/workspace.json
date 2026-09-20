@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java核心/Maven基础（项目的后勤物资部）.md",
+                "file": "java核心/Maven/Maven基础（项目的后勤物资部）.md",
                 "mode": "source",
                 "source": false
               },
@@ -189,10 +189,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "195087fbecfbb4f3",
+  "active": "4d9a205b0cb9c89b",
   "lastOpenFiles": [
+    "java核心/Maven",
+    "java核心/未命名.md",
+    "java核心/Maven/Maven基础（项目的后勤物资部）.md",
     "java核心/泛型/泛型（Generics - 贴在魔法箱上的防伪标签）.md",
-    "java核心/Maven基础（项目的后勤物资部）.md",
     "java核心/泛型/Java 泛型常见用法.md",
     "java基础及其oop/枚举enum的练习.md",
     "java基础及其oop/多态.md",
@@ -223,9 +225,7 @@
     "java核心/字符串/StringBuilder用法总结.md",
     "java核心/字符串/String.md",
     "java核心/字符串/StringBuilder.md",
-    "java核心/字符串/字符串的高频用法.md",
     "java核心/ArrayList",
-    "java核心/字符串",
-    "java基础及其oop/内部类/匿名内部类.md"
+    "java核心/字符串"
   ]
 }
