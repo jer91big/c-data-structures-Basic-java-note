@@ -11,13 +11,30 @@
             "id": "195087fbecfbb4f3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "java核心/泛型/Java 泛型常见用法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java 泛型常见用法"
+            }
+          },
+          {
+            "id": "ff4aaac3b110ab8e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.14.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d9a205b0cb9c89b",
+  "active": "ff4aaac3b110ab8e",
   "lastOpenFiles": [
     "Maven",
     "2026-10-15.md",
