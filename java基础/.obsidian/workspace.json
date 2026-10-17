@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Java 泛型常见用法"
             }
-          },
-          {
-            "id": "ff4aaac3b110ab8e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.14.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff4aaac3b110ab8e",
+  "active": "195087fbecfbb4f3",
   "lastOpenFiles": [
     "Maven",
     "2026-10-15.md",
