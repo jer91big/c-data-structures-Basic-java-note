@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "http"
             }
+          },
+          {
+            "id": "2dfdef4d4340cb10",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.14.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "195087fbecfbb4f3",
+  "active": "2dfdef4d4340cb10",
   "lastOpenFiles": [
     "Maven/Maven依赖的范围.md",
     "web基础/http.md",
