@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web基础/Html/ccs的引入.md",
+                "file": "web基础/Html/Html的骨架.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ccs的引入"
+              "title": "Html的骨架"
             }
           }
         ]
@@ -202,8 +202,9 @@
   },
   "active": "195087fbecfbb4f3",
   "lastOpenFiles": [
-    "web基础/Http/http协议总览.md",
     "web基础/Html/ccs的引入.md",
+    "web基础/Html/Html的骨架.md",
+    "web基础/Http/http协议总览.md",
     "web基础/Html",
     "web基础/Html.md",
     "web基础/Http/http响应.md",
@@ -233,7 +234,6 @@
     "java核心/字符串/String.md",
     "java核心/字符串/StringBuilder.md",
     "java核心/HashMap/HashMap.md",
-    "java核心/字符串/字符串的高频用法.md",
     "java核心/Maven",
     "java核心/泛型",
     "未命名 2.base",
