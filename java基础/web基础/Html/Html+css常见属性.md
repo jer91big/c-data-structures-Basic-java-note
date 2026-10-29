@@ -31,17 +31,18 @@ CSS：设计外观
 
 这是前面课程的核心内容，建议你重点掌握。
 
-|CSS 属性|作用|示例|
-|---|---|---|
-|`color`|设置文字颜色|`color: red;`|
-|`font-size`|设置字体大小|`font-size: 18px;`|
-|`font-weight`|设置文字粗细|`font-weight: bold;`|
-|`text-align`|设置文字水平对齐|`text-align: center;`|
-|`line-height`|设置行高|`line-height: 1.8;`|
-|`margin-bottom`|设置元素下方的外边距|`margin-bottom: 20px;`|
-|`padding`|设置内容与元素边缘之间的内部空间|`padding: 20px;`|
-|`background-color`|设置背景颜色|`background-color: lightyellow;`|
-|`border-bottom`|设置元素的底部边框|`border-bottom: 2px solid #ddd;`|
+| CSS 属性             | 作用               | 示例                               |
+| ------------------ | ---------------- | -------------------------------- |
+| `color`            | 设置文字颜色           | `color: red;`                    |
+| `font-size`        | 设置字体大小           | `font-size: 18px;`               |
+| `font-weight`      | 设置文字粗细           | `font-weight: bold;`             |
+| `text-align`       | 设置文字水平对齐         | `text-align: center;`            |
+| `line-height`      | 设置行高             | `line-height: 1.8;`              |
+| `margin-bottom`    | 设置元素下方的外边距       | `margin-bottom: 20px;`           |
+| `padding`          | 设置内容与元素边缘之间的内部空间 | `padding: 20px;`                 |
+| `background-color` | 设置背景颜色           | `background-color: lightyellow;` |
+| `border-bottom`    | 设置元素的底部边框        | `border-bottom: 2px solid #ddd;` |
+| max-width          | 控制新闻正文的最大宽度      | max-width: 760px;                |
 
 我们逐个回忆一下。
 
